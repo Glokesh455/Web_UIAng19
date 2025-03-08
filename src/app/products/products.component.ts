@@ -18,7 +18,7 @@ export class ProductsComponent implements OnInit{
 
   ngOnInit() {
     if (this.products) {
-      this.chunkProducts(4);
+      this.chunkProducts(7);
       this.cdr.detectChanges(); // Manually trigger change detection
     }
   }
