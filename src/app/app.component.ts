@@ -33,21 +33,21 @@ export class AppComponent {
 
    ]
    products = [
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'image 224.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
     { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
 
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
-    { img: 'download.jpg', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
+    { img: 'rounded.png', name: 'Zukes mini dog treats', description: "Zuke's Mini Naturals with Add..", originalPrice: 10, discountedPrice: 7, discount: 10, rating: 5.0, reviews: 123 },
    
   ];
 
