@@ -13,12 +13,13 @@ export class ProductsComponent implements OnInit{
   @Input() products: any;
 
   chunkedProducts: any[] = [];
-
+  mobileview:any[]=[]
   constructor(private cdr: ChangeDetectorRef) {}
 
   ngOnInit() {
     if (this.products) {
       this.chunkProducts(7);
+      this.mobile(2)
       this.cdr.detectChanges(); // Manually trigger change detection
     }
   }
@@ -26,6 +27,11 @@ export class ProductsComponent implements OnInit{
 chunkProducts(chunkSize: number) {
   for (let i = 0; i < this.products.length; i += chunkSize) {
     this.chunkedProducts.push(this.products.slice(i, i + chunkSize));
+  }
+}
+mobile(chunkSize: number) {
+  for (let i = 0; i < this.products.length; i += chunkSize) {
+    this.mobileview.push(this.products.slice(i, i + chunkSize));
   }
 }
 }

@@ -8,3 +8,24 @@
     color: gray !important;
 
 }
+/* Mobile view */
+@media (max-width: 768px) {
+    .mobile-view {
+      display: block; /* Show on mobile */
+    }
+    .laptop-view {
+      display: none; /* Hide on mobile */
+    }
+  }
+  
+  /* Laptop/desktop view */
+  @media (min-width: 769px) {
+    .mobile-view {
+      display: none; /* Hide on desktop */
+    }
+    .laptop-view {
+      display: block; /* Show on desktop */
+    }
+  }
+  
+  
