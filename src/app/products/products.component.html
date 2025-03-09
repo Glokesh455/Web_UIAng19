@@ -1,6 +1,6 @@
 
-<div class="d-flex justify-content-around flex-wrap" style="background-color: #b4cde2;" *ngFor="let text of bannermessage">
-
+<!-- <div class="d-flex justify-content-around flex-wrap" style="background-color: #b4cde2;" *ngFor="let text of bannermessage">
+ 
     <div class="card" class="m-3" style="background-color: white;    width: 100%;
       padding: 17px;border-radius: 10px;" >
       <div class="card-body">
@@ -56,4 +56,84 @@
     </div>
   </div>
 </div>
+  </div> -->
+  <div *ngFor="let text of bannermessage" style="background-color: #b4cde2;" >
+    
+    <div style="width: 100%;display: flex;justify-content: center;align-items: center;">
+
+      <div class="d-flex justify-content-between" style="width: 97%;background-color: white;border-radius: 10px;">
+    
+        <div class="d-flex">
+    
+          <div style="background-color:  #012b49;
+                          width: fit-content;
+                          border-radius: 10px 0px 0px 10px;
+                          padding: 8px;
+                          color: white;
+                          font-weight: 600;">
+            {{text.productdis}}
+    
+    
+    
+          </div>
+          <div style="   
+                width: 0;
+                height: 0;
+                border-left: 0 solid transparent;
+                border-right: 50px solid transparent;
+                border-bottom: 50px solid #012b49; "></div>
+        </div>
+        <div class="d-flex align-items-center justify-content">
+
+          <div class="d-none d-md-block ">
+            {{text.disc}}
+      
+      
+          </div>
+        </div>
+         <div class="d-flex align-items-center justify-content">
+  
+           <button type="button" class="btn btn-sm" style="background-color: #012b49;color: white;  color: white;
+                          font-weight: 600;margin-right: 10px;">{{text.btntxt}}</button>
+         </div>
+    
+      </div>
+    </div>
+  
+    <div class="d-flex justify-content-around flex-wrap" style="background-color: #b4cde2;">
+  
+      <div class="m-3" style="background-color: white;border-radius: 10px;width: 96vw;">
+        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div *ngFor="let chunk of chunkedProducts; let i = index" class="carousel-item"
+              [ngClass]="{'active': i === 0}">
+              <div class="row" style="justify-content: space-evenly;">
+                <div *ngFor="let item of chunk"
+                  class="col-lg-3 col-md-4 col-sm-6 d-flex flex-column align-items-center p-4" style="width: 172px;
+                      height: 336px;">
+                  <img [src]="item.img" class="img-fluid" [alt]="item.name" style="width: 172px;height: 146px;">
+                  <p style="font-weight: 700;height: 40px;color: #344450;font-size: 16px;">{{ item.name }}</p>
+                  <p style="font-size: 13px;color: #687787;">{{ item.description }}</p>
+                  <p><s style="color:#8C96A2;font-weight: 700;margin-right: 5px;">${{ item.originalPrice }}</s> <b
+                      style="margin-right: 5px;">${{ item.discountedPrice }}</b> <span
+                      style="color:#007DBC;font-weight: 700;">{{
+                      item.discount }}% Off</span></p>
+                  <span class="badge" style="font-weight: 500;background: #23BD33;
+                  "><i class="fa-solid fa-star" style="color: white;"></i> {{ item.rating }}.0 <sub>({{ item.reviews }}
+                      Reviews)</sub></span>
+                </div>
+              </div>
+            </div>
+  
+            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+  
+            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
