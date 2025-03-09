@@ -11,6 +11,7 @@ import { AppComponent } from '../app.component';
 export class ProductsComponent implements OnInit{
   @Input() bannermessage: any;
   @Input() products: any;
+  carouselIndex: number = 0;
 
   chunkedProducts: any[] = [];
   mobileview:any[]=[]
